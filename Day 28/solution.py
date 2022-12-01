@@ -1,0 +1,1 @@
+return sum(1 for c in s[:len(s)//2] if c in "aeiouAEIOU") == sum(1 for c in s[len(s)//2:] if c in "aeiouAEIOU")
